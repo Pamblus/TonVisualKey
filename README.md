@@ -2,6 +2,7 @@
 Визуальный приватный ключ The Open Network (TON)
 # TON Wallet Visual Private Key
 
+![image](VisualKey.jpg)
 ## Описание проекта
 
 **TON Visual Key** — это инструмент для просмотра кошельков в блокчейне TON (The Open Network). Проект позволяет:
