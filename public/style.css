@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.labels-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 5px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.square.checked {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.key-editor {
+    margin-bottom: 20px;
+}
+
+.key-editor label {
+    font-weight: bold;
+}
+
+.key-editor input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.balance {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.status {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.status.green {
+    color: green;
+}
+
+.status.red {
+    color: red;
+}
+
+.loading {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.addresses {
+    margin-top: 20px;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+
+.address h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.address p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
