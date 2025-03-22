@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Wallet Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TON Wallet Manager</h1>
+        <div class="grid-container">
+            <div class="grid-labels">
+                <div class="label"></div>
+                <div class="labels-column">
+                    <div class="label">1</div>
+                    <div class="label">2</div>
+                    <div class="label">3</div>
+                    <div class="label">4</div>
+                </div>
+            </div>
+            <div class="grid" id="grid"></div>
+        </div>
+        <div class="key-editor">
+            <label for="secretKey">Приватный ключ (hex):</label>
+            <input type="text" id="secretKey" maxlength="64">
+        </div>
+        <div class="balance" id="totalBalance">Суммарный баланс: 0 TON</div>
+        <div class="status red" id="statusIndicator">❌</div>
+        <div class="loading" id="loadingIndicator">Загрузка баланса...</div>
+        <div class="addresses" id="addresses"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
